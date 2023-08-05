@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid black;
+        }
+
+        nav {
+            text-align: center;
+            display: inline-block;
+            border-bottom: 1px solid black;
+            padding-bottom: 30px;
+            width: 100%;
+        }
+
+        nav img {
+            border: 1px solid black;
+            width: 78px;
+            height: 48px;
+        }
+
+        nav button {
+            border: 1px solid black;
+            width: 80px;
+            height: 50px;
+            position: relative;
+            bottom: 21px;
+        }
+
+        .conteudos,
+        .conteudos ul {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .conteudos:before,
+        .conteudos:after {
+            content: "";
+            display: table;
+        }
+
+        .conteudos:after {
+            clear: both;
+        }
+
+        .conteudos {
+            zoom: 1;
+        }
+
+        .conteudos li {
+            width: 33%;
+            float: left;
+            position: relative;
+        }
+
+        .conteudos h2 {
+            text-align: center;
+        }
+
+        #bandeirabig {
+            width: 80%;
+            height: 80%;
+            border: 2px solid black;
+        }
+
+        #inform {
+            text-align: left;
+        }
+
+        #local {
+            width: 80%;
+            height: 80%;
+        }
+
+        #change button {
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Informações sobre países</h1>
+    </header>
+
+    <nav>
+        <h2>Selecionar o País:</h2>
+        <img src="images/alemanhabandeira.png" alt="Bandeira da Alemanha" onclick="alemanhapag()">
+        <img src="images/argentinabandeira.png" alt="Bandeira da Argentina" onclick="argentinapag()">
+        <img src="images/brasilbandeira.png" alt="Bandeira do Brasil" onclick="brasilpag()">
+        <img src="images/françabandeira.png" alt="Bandeira da França" onclick="françapag()">
+        <img src="images/inglaterrabandeira.png" alt="Bandeira da Inglaterra" onclick="inglaterrapag()">
+        <img src="images/jamaicabandeira.png" alt="Bandeira da Jamaica" onclick="jamaicapag()">
+        <img src="images/suiçabandeira.png" alt="Bandeira da Suiça" onclick="suiçapag()">
+        <button onclick="limpar()">Limpar</button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="conteudos">
+            <ul>
+                <li>
+                    <h2>Bandeira</h2><br>
+                    <img id="bandeirabig" src="images/bandeiravazia.png">
+
+                    <div id="change">
+
+                    </div>
+                </li>
+
+                <li id="inform">
+                    <h2>Informações</h2><br>
+                    <p> Nome:</p>
+                    <p>Continente:</p>
+                    <p>Capital:</p>
+                    <p>População:</p>
+                    <p>Lingua oficial:</p>
+                    <p>Governo:</p>
+                </li>
+
+                <li>
+                    <h2>Localização</h2><br>
+                    <img id="local" src="images/mapavazio.png">
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+        function alemanhapag() {
+            document.getElementById("bandeirabig").src = "images/alemanhabandeira.png";
+            document.getElementById("local").src = "images/alemanhamapa.png";
+
+            document.getElementById("inform").innerHTML = "<h2>Informações</h2><br><p> Nome: Alemanha</p ><p>Continente: Europa</p><p>Capital: Berlim</p><p>População: 83.166.711</p><p>Lingua oficial: Alemão</p><p>Governo: República federal parlamentarista</p>";
+        }
+        function argentinapag() {
+            document.getElementById("bandeirabig").src = "images/argentinabandeira.png";
+            document.getElementById("local").src = "images/argentinamapa.png";
+
+            document.getElementById("inform").innerHTML = "<h2>Informações</h2><br><p> Nome: Argentina</p ><p>Continente: América do Sul e Antártida</p><p>Capital: Buenos Aires</p><p>População: 47.327.407</p><p>Lingua oficial: Espanhol</p><p>Governo: República federal presidencialista</p>";
+        }
+        function brasilpag() {
+            document.getElementById("bandeirabig").src = "images/brasilbandeira.png";
+            document.getElementById("local").src = "images/brasilmapa.png";
+
+            document.getElementById("inform").innerHTML = "<h2>Informações</h2><br><p> Nome: Brasil</p ><p>Continente: América do Sul</p><p>Capital: Brasília</p><p>População: 190.55.799</p><p>Lingua oficial: Português</p><p>Governo: República federativa presidencialista</p>";
+        }
+        function françapag() {
+            document.getElementById("bandeirabig").src = "images/françabandeira.png";
+            document.getElementById("local").src = "images/françamapa.png";
+
+            document.getElementById("inform").innerHTML = "<h2>Informações</h2><br><p> Nome: França</p ><p>Continente: Europa</p><p>Capital: Paris</p><p>População: 67.348.000</p><p>Lingua oficial: Francês</p><p>Governo: República unitária semipresidencialista</p>";
+        }
+        function inglaterrapag() {
+            document.getElementById("bandeirabig").src = "images/inglaterrabandeira.png";
+            document.getElementById("local").src = "images/inglaterramapa.png";
+
+            document.getElementById("inform").innerHTML = "<h2>Informações</h2><br><p> Nome: Inglaterra</p ><p>Continente: Europa</p><p>Capital: Londres</p><p>População: 55.619.400</p><p>Lingua oficial: Inglês e Córnico</p><p>Governo: Monarquia parlamentarista</p>";
+        }
+        function jamaicapag() {
+            document.getElementById("bandeirabig").src = "images/jamaicabandeira.png";
+            document.getElementById("local").src = "images/jamaicamapa.png";
+
+            document.getElementById("inform").innerHTML = "<h2>Informações</h2><br><p> Nome: Jamaica</p ><p>Continente: América do Norte</p><p>Capital: Kingston</p><p>População: 2.734.000</p><p>Lingua oficial: Inglês</p><p>Governo: Monarquia constitucional</p>";
+        }
+        function suiçapag() {
+            document.getElementById("bandeirabig").src = "images/suicabandeira.png";
+            document.getElementById("local").src = "images/suiçamapa.png";
+
+            document.getElementById("inform").innerHTML = "<h2>Informações</h2><br><p> Nome: Suiça</p ><p>Continente: Europa</p><p>Capital: Berna</p><p>População: 8.508.898</p><p>Lingua oficial: Alemão, Francês, Italiano e Romanche</p><p>Governo: República federal parlamentarista</p>";
+        }
+        function limpar() {
+            document.getElementById("bandeirabig").src = "images/bandeiravazia.png", innerWidth = "0", innerHeight = "0";
+            document.getElementById("local").src = "images/mapavazio.png";
+
+            document.getElementById("inform").innerHTML = "<h2>Informações</h2><br><p> Nome:</p ><p>Continente:</p><p>Capital:</p><p>População:</p><p>Lingua oficial:</p><p>Governo:</p>";
+        }
+    </script>
+</body>
+
+</html>

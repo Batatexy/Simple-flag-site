@@ -1,0 +1,54 @@
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+nav img {
+    border: 1px solid black;
+    width: 53px;
+    height: 30px;
+}
+
+.conteudos,
+.conteudos ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.conteudos:before,
+.conteudos:after {
+    content: "";
+    display: table;
+}
+
+.conteudos:after {
+    clear: both;
+}
+
+.conteudos {
+    zoom: 1;
+}
+
+.conteudos li {
+    width: 33%;
+    float: left;
+    position: relative;
+}
+
+.conteudos h2 {
+    text-align: center;
+}
+
+.bandeirabig {
+    width: 400px;
+    height: 220px;
+    border: 2px solid black;
+}
