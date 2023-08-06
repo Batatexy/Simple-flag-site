@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Simple flag site  | Site simples de bandeiras</h1>
+<h1>Simple Flag Site  | Site Simples de Bandeiras</h1>
 </div>
 
 ![Flag Page](https://github.com/Batatexy/Simple_flag_site/assets/141431095/228659d9-6e00-4c04-975a-626427e51ce6)
