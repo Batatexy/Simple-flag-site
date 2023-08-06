@@ -2,8 +2,6 @@
 <h1>Simple Flag Site  | Site Simples de Bandeiras</h1>
 </div>
 
-![Flag Page](https://github.com/Batatexy/Simple_flag_site/assets/141431095/228659d9-6e00-4c04-975a-626427e51ce6)
-
 <div align="justify">
   <p>
     This was a project proposed by the teacher to make a whole page based on an image from a page in the classroom, but because of the short time, the project wasn't so good, so when I got home I made another one and            better, and in this repository have the two versions of the same page, actually on the first project i made a lot of pages.
@@ -20,3 +18,5 @@
     <a href="https://simple-flag-site.vercel.app" target="_blank">Teste a página aqui</a>
    </h2>
 </div>
+
+![Flag Page](https://github.com/Batatexy/Simple_flag_site/assets/141431095/228659d9-6e00-4c04-975a-626427e51ce6)
