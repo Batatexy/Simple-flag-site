@@ -16,8 +16,8 @@
 
 <div align="center">
    <h2>
-    <a href="https://water-and-sustainability.vercel.app" target="_blank">Try the page here</a> |
-    <a href="https://water-and-sustainability.vercel.app" target="_blank">Teste a página aqui</a>
+    <a href="https://simple-flag-site.vercel.app" target="_blank">Try the page here</a> |
+    <a href="https://simple-flag-site.vercel.app" target="_blank">Teste a página aqui</a>
    </h2>
 </div>
 
