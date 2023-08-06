@@ -6,4 +6,5 @@ This was a project proposed by the teacher to make a whole page based on an imag
 
 Este foi um projeto proposto pelo professor de fazer uma página inteira baseada em uma imagem de uma página em sala de aula, mas por causa do pouco tempo o projeto não ficou tão bom, então quando cheguei em casa eu fiz outro e bem melhor, neste repositório existem as duas versões da mesma página, na verdade no primeiro projeto eu fiz muitas páginas.
 
-
+Teste a página aqui: | Try the page here:
+https://water-and-sustainability-1a0sl2nfe-batatexy.vercel.app/
