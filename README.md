@@ -14,8 +14,10 @@
   </p>
 </div>
 
-
 <div align="center">
-   <h2> | [Try the page here] (simple-flag-site.vercel.app) | [Teste a página aqui] (simple-flag-site.vercel.app) |</h2>
+   <h2>
+    <a href="https://water-and-sustainability.vercel.app" target="_blank">Try the page here</a> |
+    <a href="https://water-and-sustainability.vercel.app" target="_blank">Teste a página aqui</a>
+   </h2>
 </div>
 
